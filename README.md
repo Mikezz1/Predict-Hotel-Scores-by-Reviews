@@ -1,2 +1,3 @@
 
-### Implementation of GRU model to predict review score based on review text using Pytorch.
+# Sequence classification with Pytorch
+В рамках in-class соревнования на kaggle использовал GRU и предобученный DistillBert для классификации отзывов об отелях (прогнозирования пользовательской оценки от 1 до 10). По метрике MAE обе модели оказались точнее линейной регрессии и SVM, обученных на w2v эмбеддингах.
